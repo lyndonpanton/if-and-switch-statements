@@ -35,6 +35,25 @@
                 Console.WriteLine("Error: Invalid option entered");
             }
 
+            switch (option)
+            {
+                case 1:
+                    Console.WriteLine("Creating a new game...");
+                    break;
+                case 2:
+                    Console.WriteLine("Loading the saved game...");
+                    break;
+                case 3:
+                    Console.WriteLine("Opening the options menu...");
+                    break;
+                case 4:
+                    Console.WriteLine("Quitting the game...");
+                    break;
+                default:
+                    Console.WriteLine("Error: Invalid option entered");
+                    break;
+            }
+
             Console.WriteLine();
             Console.WriteLine("Thank you for playing");
             Console.WriteLine();
