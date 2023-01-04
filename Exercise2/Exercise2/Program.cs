@@ -29,7 +29,7 @@
                 Console.WriteLine("Opening the options menu...");
             } else if (option == 4)
             {
-                Console.WriteLine("Quiting the game...");
+                Console.WriteLine("Quitting the game...");
             } else
             {
                 Console.WriteLine("Error: Invalid option entered");
